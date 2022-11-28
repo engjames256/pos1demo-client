@@ -1,0 +1,26 @@
+/* .payment {
+  margin-left: 25%;
+  margin-top: 15%;
+  width: 50%;
+  height: 50%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+} */
+
+body {
+  font-family: Sans-Serif;
+}
+
+#start-payment-button {
+  cursor: pointer;
+  position: relative;
+  background-color: blueviolet;
+  color: #fff;
+  max-width: 30%;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.1s ease-in;
+}

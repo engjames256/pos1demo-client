@@ -1,0 +1,19 @@
+<head>
+<script>
+    const Print = () => {
+        //console.log('print');  
+        let printContents = document.getElementById('printablediv').innerHTML;
+        let originalContents = document.body.innerHTML;
+        document.body.innerHTML = printContents;
+        window.print();
+        document.body.innerHTML = originalContents;
+    }
+</script>
+</head>
+<body>
+<div  id='printablediv'>
+    Print me
+</div>
+
+<button type="button" onclick={print}> Print Div</button>
+</body>

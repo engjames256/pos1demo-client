@@ -1,0 +1,68 @@
+.products {
+  display: flex; 
+  overflow: hidden;
+  position: relative;
+  width: 750px;
+}
+
+.snack {
+  text-align: center;
+  width: 250px;
+  height: 195px;
+  margin: 2px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.price {
+  background-color: #cd9933;
+  font-weight: 600;
+  color: white;
+  margin-top: 15px;
+}
+.addCart {
+  border: 2px solid white;
+  color: white;
+  margin-top: 30px;
+  padding: 10px;
+  margin-left: 3%;
+  width: 50%;
+  border-radius: none;
+  margin-bottom: 10px;
+  background-color: grey;
+}
+.describe {
+  color: black;
+  font-weight: 600;
+  margin-top: 15px;
+  height: 25px;
+}
+.main {
+  flex: 10;
+}
+.basket {
+  flex: 1;
+  margin: 5px;
+}
+.productImage {
+  position: absolute;
+  width: 250px;
+  height: 195px;
+  margin: 2px;
+}
+
+
+
+
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 93%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid darkblue; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+  border-radius: 10px;
+}

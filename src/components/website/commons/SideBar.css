@@ -1,0 +1,12 @@
+.sideBar {
+  flex: 1;
+  height: 100%;
+}
+.menu {
+  background-color: #e9e9ed;
+  padding: 20px 20px;
+  margin: 30px 15px;
+}
+.menu:hover {
+  background-color: grey;
+}

@@ -1,0 +1,15 @@
+.contentArea {
+  height: 630px;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+}
+.cartArea {
+  display: flex;
+}
+.main {
+  flex: 5;
+}
+.basket {
+  flex: 1;
+}

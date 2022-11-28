@@ -1,0 +1,38 @@
+.newsletter {
+  height: 266px;
+  padding-top: 50px;
+  background-color: #16191e;
+  width: 100%;
+  text-align: center;
+}
+.subscribe {
+  font-family: "Great Vibes", cursive;
+  color: #999966;
+  font-size: 50px;
+}
+.newsl {
+  color: whitesmoke;
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: -10px;
+}
+.recieve {
+  color: whitesmoke;
+  margin-bottom: 5px;
+  margin-top: -15px;
+}
+button {
+  background-color: #cd9933;
+  font-weight: 600;
+  border: none;
+  height: 35px;
+  width: 150px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+input {
+  height: 15px;
+  width: 300px;
+  border: none;
+  padding: 10px;
+}

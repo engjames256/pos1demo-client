@@ -1,0 +1,116 @@
+.checkout {
+  width: 100%;
+  background-color: black;
+}
+
+.businessName {
+    font-weight: 600;
+    text-align: center;
+    margin: 5px;
+}
+
+.recieptDetails {
+    display: flex;
+}
+
+.reciept {
+    color: black;
+    margin: auto;
+}
+
+.desc {
+    color: black;
+    text-align: center;
+}
+
+.recieptNo {
+    text-align: center;
+    color: darkred;
+}
+
+
+.dateAndTime {
+    display: flex;
+}
+
+.date {
+    margin-right: 5px;
+}
+
+.itqHeading {
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.itqBody {
+    color: black;
+    display: flex;
+}
+
+.item {
+    width: 150px;
+}
+
+.itemBody {
+    width: 150px;
+    margin-top: 5px;
+}
+
+.qty {
+    width: 50px;
+}
+
+.qtyBody {
+    width: 50px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.cost {
+    width: 100px;
+}
+
+.costBody {
+    width: 100px;
+    margin-top: 5px;
+    text-align: end;
+    margin-right: 5px;
+}
+
+.total {
+    display: flex;
+}
+
+.totalCost {
+
+    /* margin-right: 50px; */
+    text-align: center;
+    color: black;
+}
+
+.totalAmount {
+    margin-left: 65px;
+    color: black;
+}
+
+.attendant {
+    text-align: center;
+    color: black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-top: 2px solid black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+    

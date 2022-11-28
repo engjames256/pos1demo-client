@@ -1,0 +1,61 @@
+.newfeedback {
+  flex: 4;
+  margin-right: -10px;
+}
+
+.newfeedbackForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newfeedbackItem {
+  width: 219px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  /* margin-top: 10px; */
+  /* margin-right: 20px; */
+}
+
+.newfeedbackItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(151, 150, 150);
+}
+
+.newfeedbackItem > input {
+  height: 20px;
+  padding: 5px;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+}
+
+.newfeedbackGender > input {
+  margin-top: 15px;
+}
+
+.newfeedbackGender > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.newfeedbackSelect {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(35, 35, 56);
+}
+
+.newfeedbackButton {
+  width: 220px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  padding: 7px 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}

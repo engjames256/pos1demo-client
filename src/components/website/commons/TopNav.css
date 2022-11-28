@@ -1,0 +1,83 @@
+.TopNav {
+  position: fixed;
+  display: flex;
+  background-color: #0b0d0f;
+  height: 100px;
+  width: 100%;
+  top: 0;
+}
+ul {
+  display: flex;
+  margin: auto;
+}
+li {
+  list-style: none;
+  margin: 0px 20px;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  background-color: #e9e9ed;
+  text-decoration-line: none;
+}
+li:hover {
+  background-color: #cd9933;
+}
+.title {
+  color: #e9e9ed;
+  margin: auto;
+  font-weight: 900;
+}
+.shopping {
+  background-color: #1a1c20;
+  display: flex;
+}
+.cart,
+.items,
+.total {
+  border-right: 1px solid grey;
+  color: grey;
+  width: 115px;
+  margin: auto;
+  text-align: center;
+}
+.cart {
+  color: whitesmoke;
+  padding: 5px 0px;
+  width: 50px;
+}
+
+.reservation {
+  background-color: #cd9933;
+  color: whitesmoke;
+  width: 115px;
+  padding: 10px 20px;
+}
+/* .reservation:hover {
+  color: whitesmoke;
+  background-color: black;
+  border: 1px solid whitesmoke;
+} */
+.itemNumber {
+  color: whitesmoke;
+}
+.amount {
+  color: #cd9933;
+}
+.account {
+  color: whitesmoke;
+  margin: 5px;
+}
+.acount:hover {
+  background-color: #cd9933;
+  color: whitesmoke;
+}
+.login:hover {
+  background-color: #cd9933;
+  border: "none";
+  border-radius: "10px";
+  padding-right: "10px";
+  font-weight: 600;
+  border: 1px solid #cd9933 !important;
+}

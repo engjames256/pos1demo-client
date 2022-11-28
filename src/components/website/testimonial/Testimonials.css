@@ -1,0 +1,29 @@
+.testimonial {
+  height: 316px;
+  background-color: #efefef;
+  width: 100%;
+  text-align: center;
+}
+.clients {
+  color: #999966;
+  font-size: 50px;
+  padding-top: 50px;
+  margin-bottom: -30px;
+  font-family: "Great Vibes", cursive;
+}
+.testimonials {
+  color: #555555;
+  font-size: 50px;
+  font-weight: 600;
+}
+.description {
+  color: #555555;
+  font-size: 20px;
+  font-weight: 600;
+}
+.customer {
+  color: #555555;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+}

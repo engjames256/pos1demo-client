@@ -1,0 +1,23 @@
+.main {
+  width: 1349px;
+  height: 632px;
+  margin-top: 90px;
+  background-image: url("../img/main-page.jpg");
+}
+.free {
+  height: 30%;
+}
+.restaurant {
+  border: 2px solid white;
+  width: 34%;
+  height: 50%;
+  margin-left: 33%;
+  text-align: center;
+  color: white;
+}
+.delicious {
+  font-family: "Great Vibes", cursive;
+  color: #cd9933;
+  font-size: 100px;
+  margin-top: 70px;
+}
