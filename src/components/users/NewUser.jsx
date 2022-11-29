@@ -24,7 +24,7 @@ export default function NewUser() {
       image,
       password,
     };
-    let result = await fetch("https://omara.cyclic.app/api/v1/auth/register", {
+    let result = await fetch("https://pos1demo.cyclic.app/api/v1/auth/register", {
       method: "POST",
       body: JSON.stringify(item),
       headers: {
